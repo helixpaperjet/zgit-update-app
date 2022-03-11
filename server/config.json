@@ -1,0 +1,6 @@
+{
+    "port": 8088,
+    "keyMasterFile": "D:/development/zgit-update-app/server/data/test/key.json",
+    "dataRoot": "D:/development/zgit-update-app/server/data/test",
+    "publicRoot": "D:/development/zgit-update-app/server/public"
+}
