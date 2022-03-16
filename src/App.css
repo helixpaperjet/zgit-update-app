@@ -14,3 +14,9 @@ html {
   padding-left: 5px;
   border-style: double;
 }
+#new-data-input {
+  height: 100%;
+}
+#json-export {
+  width: fit-content;
+}
