@@ -47,6 +47,7 @@ app.post("/data/test/:id", (req, res) => {
     console.log(`POST_DATA_CHANGE: 200 OK => ${target}.json successfully overwritten\n`);
     res.send("ok");
 })
+app.post("/new/:id", (req, res) => {})
 // Resolve key query, implemented in accordance with tianqi's PHP api
 app.get("/key/:id", (req, res) => {
     res.setHeader("Access-Control-Allow-Origin","*")
